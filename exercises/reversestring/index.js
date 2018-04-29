@@ -26,6 +26,12 @@ function reverse(str) {
 }
 */
 
+/* ES6:
+function reverse(str) {
+  return str.split('').reduce((rev, char) => char + rev, '');
+}
+*/
+
 // The easiest but not most obvious solution:
 // return str.split('').reverse().join('')
 
