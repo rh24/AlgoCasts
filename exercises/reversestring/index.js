@@ -35,4 +35,10 @@ function reverse(str) {
 // The easiest but not most obvious solution:
 // return str.split('').reverse().join('')
 
+/*
+Add debugger; to code and call function at end of file to run debugger mode.
+`node inspect index.js` after cd into reversestring directory. run `repl` to test specific values
+*/
+
+
 module.exports = reverse;
