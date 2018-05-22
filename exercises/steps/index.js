@@ -24,11 +24,7 @@ function steps(n) {
 
   for (let i = 1; i <= n; i++) {
     str += hash.repeat(i) // i number of times
-    if (i >= 1) {
-      space = space.repeat(n-i);
-    } else {
-      space = '';
-    }
+    space = space.repeat(n-i);
     str += space;
     console.log(str);
     space = ' ';
