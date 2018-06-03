@@ -51,7 +51,7 @@
 //   }
 // }
 
-recursive solution:
+// recursive solution:
 function steps(n, row = 0, stair = '') {
   if (n === row) {
     return;
