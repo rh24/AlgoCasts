@@ -1,4 +1,4 @@
-// --- Directions
+ // --- Directions
 // Write a function that accepts an integer N
 // and returns a NxN spiral matrix.
 // --- Examples
@@ -18,3 +18,4 @@
 function matrix(n) {}
 
 module.exports = matrix;
+        
